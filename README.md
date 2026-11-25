@@ -1,10 +1,14 @@
 ﻿# Abanyamuryango – Cooperative Members Directory
 
-A responsive React application for browsing and managing a directory of cooperative members. The application retrieves member data from the DummyJSON API and provides server-side pagination, sorting, searching, and filtering.
+A responsive React application for browsing a directory of cooperative members. The application retrieves member data from the DummyJSON API and provides server-side pagination, sorting, searching, and filtering.
 
 ## Project Overview
 
 **Abanyamuryango** means members. This project demonstrates how to build a data-driven React table with efficient API requests, reusable components, and URL-synchronized table controls.
+
+**Live Demo:** https://members-table-kappa.vercel.app/
+
+**GitHub Repository:** https://github.com/Keniaumwali/members-table
 
 ## Technologies Used
 
@@ -32,9 +36,7 @@ A responsive React application for browsing and managing a directory of cooperat
 
 ## API
 
-The application uses the DummyJSON Users API:
-
-https://dummyjson.com/users
+The application uses the [DummyJSON Users API](https://dummyjson.com/users).
 
 API operations include:
 
@@ -48,6 +50,7 @@ API operations include:
 ```text
 members-table/
 ├── public/
+│   └── favicon.svg
 ├── src/
 │   ├── api/
 │   │   ├── client.js
@@ -69,6 +72,10 @@ members-table/
 │   ├── index.css
 │   └── main.jsx
 ├── screenshots/
+│   ├── desktop.png
+│   ├── mobile.png
+│   ├── empty-state.png
+│   └── error-state.png
 ├── index.html
 ├── package.json
 └── README.md
@@ -85,7 +92,7 @@ members-table/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Keniaumwali/members-table.git
 cd members-table
 ```
 
@@ -125,7 +132,7 @@ The application uses a responsive layout built with Tailwind CSS.
 
 ## Screenshots
 
-Application screenshots will be added to the `screenshots/` directory.
+The following screenshots are included in the `screenshots/` directory:
 
 | View | Screenshot |
 |---|---|
